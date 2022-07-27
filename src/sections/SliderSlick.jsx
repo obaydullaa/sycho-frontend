@@ -1,12 +1,18 @@
-import React from 'react'
+import React from 'react';
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import Slider from "react-slick";
 
-export default function Slider() {
+export default function SliderSlick() {
+  
+
+    
   return (
     <>
         {/* <!--======== slider area start ========--> */}
     <section className="slider-area" data-background="assets/img/bg/sycho-banner.jpg">
         <div className="container-fluid p-0">
-            <div className="slider-active">
+            <Slider className="slider-active"{...settings}>
                 <div className="single-slider d-flex align-items-center">
                     <div className="row align-items-center no-gutters mt-40">
                         <div className="col-xl-5 col-lg-5 col-md-5">
@@ -63,7 +69,7 @@ export default function Slider() {
                     </div>
                 </div>
                 
-            </div>
+            </Slider>
          </div>
     </section>
     {/* <!--======== slider area end ========--> */}
