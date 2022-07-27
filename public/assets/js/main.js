@@ -14,8 +14,6 @@
         scrollOffset: top_offset,
     });
     
-
-
        //  Sticky Header 
     
     $(window).on('scroll', function () {
@@ -26,8 +24,6 @@
             $("#sticky-header").addClass("sticky");
         }
     });
-    
-    
     
     // mainSlider
     function mainSlider() {
@@ -69,14 +65,7 @@
     }
     mainSlider();
     
-    
-//  Data-Background 
-
-$("[data-background").each(function () {
-
-    $(this).css("background-image", "url( " + $(this).attr("data-background") + "  ) /");
-
-});
+  
 
 
     //  Portfolio Slider Js
@@ -224,6 +213,5 @@ $("[data-background").each(function () {
     
     // WOW active
     // new WOW().init();
-    
     
     })(jQuery);
