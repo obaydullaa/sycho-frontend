@@ -25,8 +25,7 @@ export default function Slider() {
                         </div>
                     </div>
                 </div>
-
-                {/* <div className="single-slider d-flex align-items-center">
+                <div className="single-slider d-flex align-items-center">
                     <div className="row align-items-center no-gutters mt-40">
                         <div className="col-xl-5 col-lg-5 col-md-5">
                             <div className="slider-content mb-30">
@@ -43,9 +42,9 @@ export default function Slider() {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
-                {/* <div className="single-slider d-flex align-items-center">
+                <div className="single-slider d-flex align-items-center">
                     <div className="row align-items-center no-gutters mt-40">
                         <div className="col-xl-5 col-lg-5 col-md-5">
                             <div className="slider-content mb-30">
@@ -62,8 +61,8 @@ export default function Slider() {
                             </div>
                         </div>
                     </div>
-                </div> */}
-
+                </div>
+                
             </div>
          </div>
     </section>
