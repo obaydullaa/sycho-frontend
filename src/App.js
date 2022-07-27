@@ -1,10 +1,14 @@
-import logo from './logo.svg';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Slider from './sections/Slider';
+
 
 function App() {
   return (
       <>
-        <p>Welcome to sycho</p>
-        <button>Submit</button>
+        <Header />
+        <Slider />
+        <Footer />
       </>
   );
 }
