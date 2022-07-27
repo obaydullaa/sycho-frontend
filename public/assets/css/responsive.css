@@ -1,0 +1,155 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        margin-right: 20px;
+    }
+.main-menu ul  {
+        text-align: center;
+    }
+    .slider-content h2 {
+        font-size: 55px;
+    }
+    .single-slider {
+        height: 920px;
+    }
+    .about-wrapper {
+        margin-top: 50px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area .logo {
+        margin-top: 15px;
+    }
+    .slider-content h2 {
+        font-size: 50px;
+    }
+    .single-slider {
+        height: 870px;
+    }
+    .pricing-area {
+        padding-bottom: 100px;
+    }
+    .contact-form {
+        margin-bottom: 100px;
+    }
+    .dr-content p {
+        margin-bottom: 70px;
+    }
+   
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header-area .logo {
+        margin-top: 15px;
+    }
+    .pricing-area {
+        padding-bottom: 100px;
+    }
+    .contact-form {
+        margin-bottom: 100px;
+    }
+    .dr-content p {
+        margin-bottom: 70px;
+    }
+    .slider-thumbs img {
+        display: none;
+    }
+    .single-slider {
+        height: 700px;;
+    }
+    .slider-content h2 {
+        font-size: 55px;
+    }
+    .slider-content {
+        margin-top: 50px;
+    }
+    .section-title {
+        font-size: 32px;
+    }
+    .services-img img {
+        width: 100%;
+    }
+    .dr-content {
+        padding-top: 80px;
+    }
+    .counter-list-box::before {
+        display: none;
+    }
+    .counter-list-box::after {
+        display: none;
+    }
+    .client-area .slick-slide img {
+        display: inline-block;
+    }
+    .client-area .slick-slide {
+        text-align: center;
+    }
+    .sign-dr {
+        margin-bottom: 150px;
+    }
+    .sign-dr {
+        margin-bottom: 150px;
+    }
+    .dr-image img {
+        max-width: 100%;
+    }
+    .award-thumb {
+        text-align: center;
+    }
+    .sign-dr .sy-btn.mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-terms {
+        text-align: left;
+    }
+    .about-expe-conten h4 {
+        font-size: 25px;
+    }
+    .about-expe-conten {
+        padding: 20px 20px;
+    }
+    .about-wrapper {
+        margin-top: 90px;
+    }
+    .about-wrapper {
+	padding: 0 0;
+}
+
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.header-area .logo {
+    margin-top: 15px;
+}
+.pricing-area {
+	padding-bottom: 100px;
+}
+.contact-form {
+	margin-bottom: 100px;
+}
+.dr-content p {
+	margin-bottom: 70px;
+}
+
+
+
+}
