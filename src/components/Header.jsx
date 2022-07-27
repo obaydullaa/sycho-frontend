@@ -15,33 +15,33 @@ export default function Header() {
                 <div className="col-xl-7 col-lg-7">
                     <div className="main-menu">
                         <nav id="mobile-menu">
-                            <ul>
-                                <li><a href="#">Home</a>
-                                    <ul className="submenu">
-                                        <li><a href="#">Home</a> </li>
-                                        <li><a href="#">About</a> </li>
-                                        <li><a href="#">Blog</a>
-                                            <li><a href="#">Services</a>
-                                                <ul className="submenu">
-                                                    <li><a href="#">Home</a> </li>
-                                                    <li><a href="#">About</a> </li>
-                                                    <li><a href="#">Blog</a> </li>
-                                                    <li><a href="#">Portfolio</a> </li>
-                                                    <li><a href="#">Services</a> </li>
-                                                    <li><a href="#">Contact</a> </li>
-                                                </ul>
-                                            </li>
-                                        </li>
-                                        <li><a href="#">Portfolio</a> </li>
-                                        <li><a href="#">Contact</a> </li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">About</a> </li>
-                                <li><a href="#">Blog</a> </li>
-                                <li><a href="#">Portfolio</a> </li>
-                                <li><a href="#">Services</a> </li>
-                                <li><a href="#">Contact</a> </li>
-                            </ul>
+                            <div>
+                                <div><a href="#">Home</a>
+                                    <div className="submenu">
+                                        <div><a href="#">Home</a> </div>
+                                        <div><a href="#">About</a> </div>
+                                        <div><a href="#">Blog</a>
+                                            <div><a href="#">Services</a>
+                                                <div className="submenu">
+                                                    <div><a href="#">Home</a> </div>
+                                                    <div><a href="#">About</a> </div>
+                                                    <div><a href="#">Blog</a> </div>
+                                                    <div><a href="#">Portfolio</a> </div>
+                                                    <div><a href="#">Services</a> </div>
+                                                    <div><a href="#">Contact</a> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div><a href="#">Portfolio</a> </div>
+                                        <div><a href="#">Contact</a> </div>
+                                    </div>
+                                </div>
+                                <div><a href="#">About</a> </div>
+                                <div><a href="#">Blog</a> </div>
+                                <div><a href="#">Portfolio</a> </div>
+                                <div><a href="#">Services</a> </div>
+                                <div><a href="#">Contact</a> </div>
+                            </div>
                         </nav>
                     </div>
                     <div className="mobile-menu"></div>

@@ -394,7 +394,7 @@ button:hover {
     color: #fff;
 }
 
-.main-menu ul li::before {
+.main-menu div div::before {
     content: "";
     position: absolute;
     width: 2px;
@@ -407,30 +407,30 @@ button:hover {
     transition: 0.3s;
 }
 
-.main-menu ul li:hover::before {
+.main-menu div div:hover::before {
     height: 25px;
     width: 2px
 }
 
-.main-menu ul li {
+.main-menu div div {
     display: inline-block;
     margin-right: 40px;
     position: relative;
     transition: .3s;
 }
 
-.main-menu ul li a {
+.main-menu div div a {
     text-transform: uppercase;
     padding: 34px 0;
     display: inline-block;
     color: #fff;
 }
 
-.main-menu ul li:hover>a {
+.main-menu div div:hover>a {
     color: #f8a683;
 }
 
-.main-menu ul li .submenu {
+.main-menu div div .submenu {
     position: absolute;
     top: 110%;
     left: 0;
@@ -443,22 +443,22 @@ button:hover {
     border-top: 3px solid #f8a683;
 }
 
-.main-menu ul li:hover>.submenu {
+.main-menu div div:hover>.submenu {
     top: 100%;
     opacity: 1;
     visibility: visible;
 }
 
-.main-menu ul li .submenu li {
+.main-menu div div .submenu div {
     padding: 0;
     display: block;
 }
 
-.main-menu ul li .submenu li::before {
+.main-menu div div .submenu div::before {
     display: none;
 }
 
-.main-menu ul li .submenu li a {
+.main-menu div div .submenu div a {
     margin: 0;
     color: #333;
     padding: 5px 20px;
@@ -466,16 +466,16 @@ button:hover {
     font-size: 14px;
 }
 
-.main-menu ul li .submenu li .submenu {
+.main-menu div div .submenu div .submenu {
     top: 0;
     left: 122%;
 }
 
-.main-menu ul li .submenu li:hover .submenu>a {
+.main-menu div div .submenu div:hover .submenu>a {
     color: #f8a683;
 }
 
-.main-menu ul li .submenu li:hover>a {
+.main-menu div div .submenu div:hover>a {
     color: #f8a683;
 }
 

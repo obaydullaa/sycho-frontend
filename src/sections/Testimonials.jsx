@@ -4,156 +4,156 @@ export default function Testimonials() {
   return (
     <>
         {/* <!--======== testimonials area start ========--> */}
-        <section class="testimonials-area pb-80"> 
-            <div class="testimonials-bg pt-100" data-background="assets/img/bg/testimonials-bg.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <div class="section-title-wrap mb-60">
-                                <div class="section-sub-title mb-20">
+        <section className="testimonials-area pb-80"> 
+            <div className="testimonials-bg pt-100" data-background="assets/img/bg/testimonials-bg.jpg">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-7">
+                            <div className="section-title-wrap mb-60">
+                                <div className="section-sub-title mb-20">
                                     <img src="assets/img/icon/sec-icon-1.png" alt=""/>
-                                    <span class="ml-15">our achievement</span>
+                                    <span className="ml-15">our achievement</span>
                                 </div>
-                                <h2 class="section-title">Happy Patient says Something
+                                <h2 className="section-title">Happy Patient says Something
                                     About our Service </h2>
                             </div>
                         </div>
                     </div>
-                    <div class="row testimonials-active">
-                        <div class="col-lg-12">
-                            <div class="testimonial-box position-relative white-bg">
-                                <div class="testimonial-quote">
+                    <div className="row testimonials-active">
+                        <div className="col-lg-12">
+                            <div className="testimonial-box position-relative white-bg">
+                                <div className="testimonial-quote">
                                     <img src="assets/img/testimonial/quote.png" alt=""/>
                                 </div>
-                                <div class="testimonial-content">
-                                    <div class="rating mb-15">
+                                <div className="testimonial-content">
+                                    <div className="rating mb-15">
                                         <ul>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>He of ledser had bn sad earth him pure cree peeth fish lame days all into thing in subdue day they are subdiue haise being gine ning our multiply one behold meats above heaven are domins bione moved orales one fourth to appear in won tree doesn in two together also be door please be open.</p>
                                 </div>
-                                <div class="testimonial-bottom d-flex">
-                                    <div class="testimonial-avatar">
+                                <div className="testimonial-bottom d-flex">
+                                    <div className="testimonial-avatar">
                                         <img src="assets/img/testimonial/testi-client.png" alt=""/>
                                     </div>
-                                    <div class="testi-client-text">
+                                    <div className="testi-client-text">
                                         <h4>Peter Martyn</h4>
                                         <span>Project Manager</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
-                            <div class="testimonial-box position-relative white-bg">
-                                <div class="testimonial-quote">
+                        <div className="col-lg-12">
+                            <div className="testimonial-box position-relative white-bg">
+                                <div className="testimonial-quote">
                                     <img src="assets/img/testimonial/quote.png" alt=""/>
                                 </div>
-                                <div class="testimonial-content">
-                                    <div class="rating mb-15">
+                                <div className="testimonial-content">
+                                    <div className="rating mb-15">
                                         <ul>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>He of ledser had bn sad earth him pure cree peeth fish lame days all into thing in subdue day they are subdiue haise being gine ning our multiply one behold meats above heaven are domins bione moved orales one fourth to appear in won tree doesn in two together also be door please be open.</p>
                                 </div>
-                                <div class="testimonial-bottom d-flex">
-                                    <div class="testimonial-avatar">
+                                <div className="testimonial-bottom d-flex">
+                                    <div className="testimonial-avatar">
                                         <img src="assets/img/testimonial/testi-client.png" alt=""/>
                                     </div>
-                                    <div class="testi-client-text">
+                                    <div className="testi-client-text">
                                         <h4>Peter Martyn</h4>
                                         <span>Project Manager</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
-                            <div class="testimonial-box position-relative white-bg">
-                                <div class="testimonial-quote">
+                        <div className="col-lg-12">
+                            <div className="testimonial-box position-relative white-bg">
+                                <div className="testimonial-quote">
                                     <img src="assets/img/testimonial/quote.png" alt=""/>
                                 </div>
-                                <div class="testimonial-content">
-                                    <div class="rating mb-15">
+                                <div className="testimonial-content">
+                                    <div className="rating mb-15">
                                         <ul>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>He of ledser had bn sad earth him pure cree peeth fish lame days all into thing in subdue day they are subdiue haise being gine ning our multiply one behold meats above heaven are domins bione moved orales one fourth to appear in won tree doesn in two together also be door please be open.</p>
                                 </div>
-                                <div class="testimonial-bottom d-flex">
-                                    <div class="testimonial-avatar">
+                                <div className="testimonial-bottom d-flex">
+                                    <div className="testimonial-avatar">
                                         <img src="assets/img/testimonial/testi-client.png" alt=""/>
                                     </div>
-                                    <div class="testi-client-text">
+                                    <div className="testi-client-text">
                                         <h4>Peter Martyn</h4>
                                         <span>Project Manager</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
-                            <div class="testimonial-box position-relative white-bg">
-                                <div class="testimonial-quote">
+                        <div className="col-lg-12">
+                            <div className="testimonial-box position-relative white-bg">
+                                <div className="testimonial-quote">
                                     <img src="assets/img/testimonial/quote.png" alt=""/>
                                 </div>
-                                <div class="testimonial-content">
-                                    <div class="rating mb-15">
+                                <div className="testimonial-content">
+                                    <div className="rating mb-15">
                                         <ul>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>He of ledser had bn sad earth him pure cree peeth fish lame days all into thing in subdue day they are subdiue haise being gine ning our multiply one behold meats above heaven are domins bione moved orales one fourth to appear in won tree doesn in two together also be door please be open.</p>
                                 </div>
-                                <div class="testimonial-bottom d-flex">
-                                    <div class="testimonial-avatar">
+                                <div className="testimonial-bottom d-flex">
+                                    <div className="testimonial-avatar">
                                         <img src="assets/img/testimonial/testi-client.png" alt=""/>
                                     </div>
-                                    <div class="testi-client-text">
+                                    <div className="testi-client-text">
                                         <h4>Peter Martyn</h4>
                                         <span>Project Manager</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
-                            <div class="testimonial-box position-relative white-bg">
-                                <div class="testimonial-quote">
+                        <div className="col-lg-12">
+                            <div className="testimonial-box position-relative white-bg">
+                                <div className="testimonial-quote">
                                     <img src="assets/img/testimonial/quote.png" alt=""/>
                                 </div>
-                                <div class="testimonial-content">
-                                    <div class="rating mb-15">
+                                <div className="testimonial-content">
+                                    <div className="rating mb-15">
                                         <ul>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
                                         </ul>
                                     </div>
                                     <p>He of ledser had bn sad earth him pure cree peeth fish lame days all into thing in subdue day they are subdiue haise being gine ning our multiply one behold meats above heaven are domins bione moved orales one fourth to appear in won tree doesn in two together also be door please be open.</p>
                                 </div>
-                                <div class="testimonial-bottom d-flex">
-                                    <div class="testimonial-avatar">
+                                <div className="testimonial-bottom d-flex">
+                                    <div className="testimonial-avatar">
                                         <img src="assets/img/testimonial/testi-client.png" alt=""/>
                                     </div>
-                                    <div class="testi-client-text">
+                                    <div className="testi-client-text">
                                         <h4>Peter Martyn</h4>
                                         <span>Project Manager</span>
                                     </div>
