@@ -223,7 +223,7 @@ $("[data-background").each(function () {
     });
     
     // WOW active
-    new WOW().init();
+    // new WOW().init();
     
     
     })(jQuery);
