@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 
 export default function Portfolio() {
-    const settings = {
+    const portfolio = {
         dots: false,
         centerMode: true,
         infinite: true,
@@ -20,7 +20,7 @@ export default function Portfolio() {
       {/* <!--======== portfolio area start ========--> */}
       <section className="portfolio-area pb-100">
           <div className="container-fluid">
-              <Slider className="row portfolio-active" {...settings}>
+              <Slider className="row portfolio-active" {...portfolio}>
                   <div className="col-lg-12">
                       <div className="portfolio-item position-relative">
                           <div className="portfolio-thumb">
