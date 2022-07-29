@@ -12,7 +12,32 @@ const settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
 };
     
   return (
@@ -39,6 +64,7 @@ const settings = {
                         </div>
                     </div>
                 </div>
+                
                 <div className="single-slider d-flex align-items-center">
                     <div className="row align-items-center no-gutters mt-40">
                         <div className="col-xl-5 col-lg-5 col-md-5">
