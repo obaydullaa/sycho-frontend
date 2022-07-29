@@ -1221,7 +1221,27 @@ button:hover {
   .testi-client-text span {
     color: #fff;
   }
-
+/*Tesitmonial slider arrow */
+  .testimonials-area .slick-arrow.slick-next {
+    right: 40px;
+    left: auto;
+    top: -60px;
+}
+.testimonials-area .slick-prev {
+  left: auto;
+  top: -60px;
+}
+.testimonials-area .slick-prev:before, .testimonials-area .slick-next:before {
+    font-family: 'slick';
+    font-size: 48px;
+    line-height: 1;
+    opacity: 1;
+    color: #056c5f;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: none;
+    padding: 0;
+}
   /* blog area  */
   
 .blog-meta a {

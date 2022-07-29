@@ -1,6 +1,17 @@
-import React from 'react'
+import React from 'react';
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import Slider from "react-slick";
 
 export default function Testimonials() {
+    const setting = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+    };
   return (
     <>
         {/* <!--======== testimonials area start ========--> */}
@@ -19,7 +30,7 @@ export default function Testimonials() {
                             </div>
                         </div>
                     </div>
-                    <div className="row testimonials-active">
+                    <Slider className="row testimonials-active"{...setting}>
                         <div className="col-lg-12">
                             <div className="testimonial-box position-relative white-bg">
                                 <div className="testimonial-quote">
@@ -160,7 +171,7 @@ export default function Testimonials() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Slider>
                 </div>
             </div>
         </section>
