@@ -546,7 +546,6 @@ button:hover {
     border-bottom-left-radius: 5px;
   }
 
-
   /* slider arrow */
   .slider-arrow {
     bottom: 50px;
@@ -592,7 +591,7 @@ button:hover {
     position: absolute;
     content: "";
     top: 100%;
-    left: 5px;
+    left: 10px;
     width: 2px;
     height: 0px;
     background-color: #f8a683;
@@ -669,6 +668,13 @@ button:hover {
   .slider-active.slider-active-2 .slick-dots {
     bottom: auto;
   }
+  /* React sick slider dots fixed  */
+  .slider-active .slick-dots li button {
+    font-size: 18px;
+}
+.slider-active .slick-dots li button:before {
+  content: '';
+}
 
   /* featured area */
 .features-area-border{

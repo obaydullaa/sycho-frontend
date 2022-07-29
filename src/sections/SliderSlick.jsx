@@ -2,11 +2,13 @@ import React from 'react';
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
+import { toHaveStyle } from '@testing-library/jest-dom/dist/matchers';
 
 export default function SliderSlick() {
   
 const settings = {
     dots: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
