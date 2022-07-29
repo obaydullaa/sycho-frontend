@@ -1,6 +1,17 @@
 import React from 'react'
+import Slider from 'react-slick'
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 
 export default function Footer() {
+    const setting = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+    };
   return (
     <>
       {/* <!--======== footer area start ========--> */}
@@ -14,7 +25,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="col-lg-9">
-                        <div className="award-active">
+                        <Slider className="award-active" {...setting}>
                             <div className="award-item">
                                   <div className="award-thumb">
                                       <img src="assets/img/award/award-1.png" alt=""/>
@@ -50,7 +61,7 @@ export default function Footer() {
                                       <img src="assets/img/award/award-1.png" alt=""/>
                                   </div>
                             </div>
-                        </div>
+                        </Slider>
                     </div>
 
                 </div>
