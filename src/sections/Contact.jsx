@@ -47,7 +47,7 @@ export default function Contact() {
                   </div>
                   <div className="col-lg-7">
                       <div className="our-map">
-                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5139.52284799924!2d89.58845270069895!3d24.37464223078907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdc558a15eb8e7%3A0x214483aabde91b39!2sAlipur%20Akondo%20Home!5e0!3m2!1sen!2sbd!4v1624555948892!5m2!1sen!2sbd" title="This is a unique title" allowFullScreen></iframe>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.3701967527622!2d90.3905615153625!3d23.73417469531189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8c1f25e613d%3A0xaad562eec578f8ff!2sArts%20Faculty%2C%20Dhaka%201205!5e0!3m2!1sen!2sbd!4v1660337206588!5m2!1sen!2sbd" width="600" height="450" style={{border:'0'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="This is a unique title"></iframe>
                       </div>
                   </div>
               </div>

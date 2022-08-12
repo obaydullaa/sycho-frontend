@@ -1141,14 +1141,14 @@ button:hover {
   .contact-select  {
     position: relative;
 }
-.contact-select::after {
+/* .contact-select::after {
 	position: absolute;
 	content: "\f062";
-	font-family: Font Awesome 5 Free;
+	font-family: Font Awesome\ 5 Brands;
 	top: 22px;
 	right: 10px;
     color: #fff;
-}
+} */
   .contact-form textarea {
     width: 100%;
     height: 150px;
