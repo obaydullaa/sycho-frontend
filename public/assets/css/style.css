@@ -63,6 +63,7 @@ a,
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
+    border: 0;
 }
 
 a:focus,
@@ -81,7 +82,7 @@ a:hover,
 
 a,
 button {
-    color: #f8a683;
+    /* color: #f8a683; */
     outline: medium none;
 }
 button{
@@ -241,6 +242,10 @@ label {
 
 .sy-btn {
 	-moz-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 	background: #056c5f;
 	border: medium none;
 	border-radius: 0px 30px 30px 30px;
@@ -305,7 +310,7 @@ label {
 }
 button:hover {
 	background: #fff;
-	color: #056c5f;;
+	/* color: #f8a683; */
 }
 
 .breadcrumb>.active {
@@ -393,7 +398,9 @@ button:hover {
 .header-cta a {
     color: #fff;
 }
-
+.logo button {
+  background: none;
+}
 .main-menu div div::before {
     content: "";
     position: absolute;
@@ -419,14 +426,15 @@ button:hover {
     transition: .3s;
 }
 
-.main-menu div div a {
-    text-transform: uppercase;
-    padding: 34px 0;
-    display: inline-block;
-    color: #fff;
+.main-menu div div button {
+  text-transform: uppercase;
+  padding: 34px 0;
+  display: inline-block;
+  color: #fff;
+  background: none;
 }
 
-.main-menu div div:hover>a {
+.main-menu div div:hover>button {
     color: #f8a683;
 }
 
@@ -458,7 +466,7 @@ button:hover {
     display: none;
 }
 
-.main-menu div div .submenu div a {
+.main-menu div div .submenu div button {
     margin: 0;
     color: #333;
     padding: 5px 20px;
@@ -471,19 +479,21 @@ button:hover {
     left: 122%;
 }
 
-.main-menu div div .submenu div:hover .submenu>a {
+.main-menu div div .submenu div:hover .submenu>button {
     color: #f8a683;
 }
 
-.main-menu div div .submenu div:hover>a {
+.main-menu div div .submenu div:hover>button {
     color: #f8a683;
 }
 
 .header-cta {
-    margin-top: 9px;
-    float: right;
+  margin-top: 12px;
+  float: right;
 }
-
+.header-cta.f-right button {
+  background: none;
+}
 .header-bar {
     background: #fff;
     height: 50px;
@@ -514,6 +524,9 @@ button:hover {
 
 .header-bar:hover span {
     width: 24px;
+}
+.hear-phone {
+  color: #f8a683;
 }
 
 /* Slider Area */
@@ -781,8 +794,6 @@ button:hover {
     .author-text {
         overflow: hidden;
         padding-left: 15px;
-      }
-      h4 {
       }
       .author-text h4 {
         font-size: 21px;
@@ -1177,6 +1188,9 @@ button:hover {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.client-image button {
+  background: none;
+}
 
 /* testimonia area  */
 .testimonials-area {
@@ -1198,6 +1212,10 @@ button:hover {
     display: inline-block;
     margin-right: 5px;
   }
+  .rating ul li button {
+    background: none;
+    color: #eaa381;
+}
   .testimonial-quote img {
     height: 115px;
     width: 100px;
@@ -1250,18 +1268,27 @@ button:hover {
 }
   /* blog area  */
   
-.blog-meta a {
+  .blog-meta button {
     color: #848b8a;
     transition: .3s;
-  }
+    background: none;
+    transition: .3s;
+}
+  .blog-meta > button:hover {
+    color: #f8a683;
+}
+.blog-content  button {
+  background: none;
+  text-align: left;
+}
   .blog-meta i {
     color: #f8a683;
     margin-right: 10px;
     transition: .3s;
   }  
-  .blog-meta:hover a,
+  .blog-meta:hover button,
   .blog-meta:hover i {
-      color: #056c5f;
+      color: #f8a683;
     }
   .blog-date h5 {
     font-size: 30px;
@@ -1340,7 +1367,7 @@ button:hover {
 	display: inline-block;
 	margin-right: 5px;
 }
-.footer-social ul li a {
+.footer-social ul li button {
 	height: 40px;
 	width: 40px;
 	background: #313232;
@@ -1351,19 +1378,20 @@ button:hover {
 	color: #fff;
   transition: .3s;
 }
-.footer-social ul li:hover a {
+.footer-social ul li:hover button {
 	background: #f8a683;
 }
-.footer-services ul li a {
+.footer-services ul li button {
 	color: #bababa;
 	position: relative;
   padding-left: 15px;
   transition: .3s;
+  background: none;
 }
-.footer-services ul li:hover a {
+.footer-services ul li:hover button {
   padding-left: 20px;
 }
-.footer-services ul li a::before {
+.footer-services ul li button::before {
 	content: "";
 	position: absolute;
 	height: 2px;
@@ -1398,13 +1426,16 @@ button:hover {
 .footer-terms {
   text-align: right;
 }
-.footer-terms a {
+.footer-terms button {
   color: #bababa;
 }
 .copy-right-area {
 	border-top: 1px solid #2d2e2e;
 	padding-top: 30px;
 	padding-bottom: 25px;
+}
+.footer-copyright-text p button {
+  background: none;
 }
 .footer-copyright-text a:hover {
   color: #fff;

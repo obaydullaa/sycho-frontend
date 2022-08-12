@@ -64,11 +64,11 @@ export default function Testimonials() {
                                 <div className="testimonial-content">
                                     <div className="rating mb-15">
                                         <ul>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
                                         </ul>
                                     </div>
                                     <p>He of ledser had bn sad earth him pure cree peeth fish lame days all into thing in subdue day they are subdiue haise being gine ning our multiply one behold meats above heaven are domins bione moved orales one fourth to appear in won tree doesn in two together also be door please be open.</p>
@@ -92,11 +92,11 @@ export default function Testimonials() {
                                 <div className="testimonial-content">
                                     <div className="rating mb-15">
                                         <ul>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
                                         </ul>
                                     </div>
                                     <p>He of ledser had bn sad earth him pure cree peeth fish lame days all into thing in subdue day they are subdiue haise being gine ning our multiply one behold meats above heaven are domins bione moved orales one fourth to appear in won tree doesn in two together also be door please be open.</p>
@@ -120,11 +120,11 @@ export default function Testimonials() {
                                 <div className="testimonial-content">
                                     <div className="rating mb-15">
                                         <ul>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
                                         </ul>
                                     </div>
                                     <p>He of ledser had bn sad earth him pure cree peeth fish lame days all into thing in subdue day they are subdiue haise being gine ning our multiply one behold meats above heaven are domins bione moved orales one fourth to appear in won tree doesn in two together also be door please be open.</p>
@@ -148,11 +148,11 @@ export default function Testimonials() {
                                 <div className="testimonial-content">
                                     <div className="rating mb-15">
                                         <ul>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
                                         </ul>
                                     </div>
                                     <p>He of ledser had bn sad earth him pure cree peeth fish lame days all into thing in subdue day they are subdiue haise being gine ning our multiply one behold meats above heaven are domins bione moved orales one fourth to appear in won tree doesn in two together also be door please be open.</p>
@@ -176,11 +176,11 @@ export default function Testimonials() {
                                 <div className="testimonial-content">
                                     <div className="rating mb-15">
                                         <ul>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i className="fas fa-star"></i></a></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
+                                            <li><button type='button'><i className="fas fa-star"></i></button></li>
                                         </ul>
                                     </div>
                                     <p>He of ledser had bn sad earth him pure cree peeth fish lame days all into thing in subdue day they are subdiue haise being gine ning our multiply one behold meats above heaven are domins bione moved orales one fourth to appear in won tree doesn in two together also be door please be open.</p>

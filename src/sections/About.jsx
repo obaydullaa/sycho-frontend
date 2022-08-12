@@ -72,7 +72,7 @@ export default function About() {
                               </div>
                               <div className="about-bottom d-block d-sm-flex">
                                   <div className="about-btn mr-40 bm-30">
-                                      <a href="#" className="sy-btn">More About us</a>
+                                      <button type='button' className="sy-btn">More About us</button>
                                   </div>
                                   <div className="about-author mb-30">
                                       <img src="assets/img/about/author.png" alt="" />

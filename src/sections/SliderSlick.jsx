@@ -2,7 +2,6 @@ import React from 'react';
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
-import { toHaveStyle } from '@testing-library/jest-dom/dist/matchers';
 
 export default function SliderSlick() {
   
@@ -54,7 +53,7 @@ const settings = {
                                 <h2 data-animation="fadeInUp" data-delay=".4s">Best therapy
                                 makes Excellent
                                 yours family </h2>
-                                <a data-animation="fadeInUp" data-delay=".6s" href="#" className="sy-btn white-btn">Contact Us Now</a>
+                                <button type='button' data-animation="fadeInUp" data-delay=".6s" href="#" className="sy-btn white-btn">Contact Us Now</button>
                             </div>
                         </div>
                         <div className="col-xl-7 col-lg-7 col-md-7">
@@ -73,7 +72,7 @@ const settings = {
                                 <h2 data-animation="fadeInUp" data-delay=".4s">Best therapy
                                 makes Excellent
                                 yours family </h2>
-                                <a data-animation="fadeInUp" data-delay=".6s" href="#" className="sy-btn white-btn">Contact Us Now</a>
+                                <button type='button' data-animation="fadeInUp" data-delay=".6s" href="#" className="sy-btn white-btn">Contact Us Now</button>
                             </div>
                         </div>
                         <div className="col-xl-7 col-lg-7 col-md-7">
@@ -92,7 +91,7 @@ const settings = {
                                 <h2 data-animation="fadeInUp" data-delay=".4s">Best therapy
                                 makes Excellent
                                 yours family </h2>
-                                <a data-animation="fadeInUp" data-delay=".6s" href="#" className="sy-btn white-btn">Contact Us Now</a>
+                                <button type='button' data-animation="fadeInUp" data-delay=".6s" href="#" className="sy-btn white-btn">Contact Us Now</button>
                             </div>
                         </div>
                         <div className="col-xl-7 col-lg-7 col-md-7">

@@ -52,8 +52,8 @@ export default function Portfolio() {
                               <img src="assets/img/case/case-2.jpg" alt=""/>
                           </div>
                           <div className="portfolio-content fix position-absolute white-bg">
-                              <h3><a href="case-details.html">Couple Therapy</a></h3>
-                              <a className="port-btn" href="#"><i className="fas fa-plus"></i></a>
+                              <h3><button type='button'>Couple Therapy</button></h3>
+                              <button type='button' className="port-btn"><i className="fas fa-plus"></i></button>
                           </div>
                       </div>
                   </div>
@@ -63,8 +63,8 @@ export default function Portfolio() {
                               <img src="assets/img/case/case-3.jpg" alt=""/>
                           </div>
                           <div className="portfolio-content fix position-absolute white-bg">
-                              <h3><a href="case-details.html">Couple Therapy</a></h3>
-                              <a className="port-btn" href="#"><i className="fas fa-plus"></i></a>
+                              <h3><button type='button'>Couple Therapy</button></h3>
+                              <button type='button' className="port-btn"><i className="fas fa-plus"></i></button>
                           </div>
                       </div>
                   </div>
@@ -74,8 +74,8 @@ export default function Portfolio() {
                               <img src="assets/img/case/case-4.jpg" alt=""/>
                           </div>
                           <div className="portfolio-content fix position-absolute white-bg">
-                              <h3><a href="case-details.html">Couple Therapy</a></h3>
-                              <a className="port-btn" href="#"><i className="fas fa-plus"></i></a>
+                              <h3><button type='button'>Couple Therapy</button></h3>
+                              <button type='button' className="port-btn"><i className="fas fa-plus"></i></button>
                           </div>
                       </div>
                   </div>
@@ -85,8 +85,8 @@ export default function Portfolio() {
                               <img src="assets/img/case/case-3.jpg" alt=""/>
                           </div>
                           <div className="portfolio-content fix position-absolute white-bg">
-                              <h3><a href="case-details.html">Couple Therapy</a></h3>
-                              <a className="port-btn" href="#"><i className="fas fa-plus"></i></a>
+                              <h3><button type='button'>Couple Therapy</button></h3>
+                              <button type='button' className="port-btn"><i className="fas fa-plus"></i></button>
                           </div>
                       </div>
                   </div>
@@ -96,8 +96,8 @@ export default function Portfolio() {
                               <img src="assets/img/case/case-2.jpg" alt=""/>
                           </div>
                           <div className="portfolio-content fix position-absolute white-bg">
-                              <h3><a href="case-details.html">Couple Therapy</a></h3>
-                              <a className="port-btn" href="#"><i className="fas fa-plus"></i></a>
+                              <h3><button type='button'>Couple Therapy</button></h3>
+                              <button type='button' className="port-btn"><i className="fas fa-plus"></i></button>
                           </div>
                       </div>
                   </div>

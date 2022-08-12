@@ -14,17 +14,17 @@ export default function Blog() {
                             </div>
                             <div className="blog-content pink-bg">
                                 <div className="blog-meta mb-25">
-                                    <span><a href="#"><i className="far fa-user"></i> Buffet Causta</a></span>
+                                    <span><button type='button'><i className="far fa-user"></i> Buffet Causta</button></span>
                                     <div className="blog-date">
                                         <h5>25</h5>
                                         <span>Aug</span>
                                     </div>
                                 </div>
-                                <h2><a href="#"> Evening heaven on spirit them goes
-                                    first created god together.</a></h2>
+                                <h2><button type='button'> Evening heaven on spirit them goes
+                                    first created god together.</button></h2>
                                 <div className="blog-meta">
-                                    <span><a href="#"><i className="far fa-user"></i> Cuppole Problem</a></span>
-                                    <span><a href="#"><i className="far fa-comments"></i> Comments</a> </span>
+                                    <span><button type='button'><i className="far fa-user"></i> Cuppole Problem</button></span>
+                                    <span><button type='button'><i className="far fa-comments"></i> Comments</button> </span>
                                 </div>
                             </div>
                         </div>
@@ -36,17 +36,17 @@ export default function Blog() {
                             </div>
                             <div className="blog-content pink-bg">
                                 <div className="blog-meta mb-25">
-                                    <span><a href="#"><i className="far fa-user"></i> Buffet Causta</a></span>
+                                    <span><button type='button'><i className="far fa-user"></i> Buffet Causta</button></span>
                                     <div className="blog-date">
                                         <h5>25</h5>
                                         <span>Aug</span>
                                     </div>
                                 </div>
-                                <h2><a href="#"> Evening heaven on spirit them goes
-                                    first created god together.</a></h2>
+                                <h2><button type='button'> Evening heaven on spirit them goes
+                                    first created god together.</button></h2>
                                 <div className="blog-meta">
-                                    <span><a href="#"><i className="far fa-user"></i> Cuppole Problem</a></span>
-                                    <span><a href="#"><i className="far fa-comments"></i> Comments</a> </span>
+                                    <span><button type='button'><i className="far fa-user"></i> Cuppole Problem</button></span>
+                                    <span><button type='button'><i className="far fa-comments"></i> Comments</button> </span>
                                 </div>
                             </div>
                         </div>
@@ -58,17 +58,17 @@ export default function Blog() {
                             </div>
                             <div className="blog-content pink-bg">
                                 <div className="blog-meta mb-25">
-                                    <span><a href="#"><i className="far fa-user"></i> Buffet Causta</a></span>
+                                    <span><button type='button'><i className="far fa-user"></i> Buffet Causta</button></span>
                                     <div className="blog-date">
                                         <h5>25</h5>
                                         <span>Aug</span>
                                     </div>
                                 </div>
-                                <h2><a href="#"> Evening heaven on spirit them goes
-                                    first created god together.</a></h2>
+                                <h2><button type='button'> Evening heaven on spirit them goes
+                                    first created god together.</button></h2>
                                 <div className="blog-meta">
-                                    <span><a href="#"><i className="far fa-user"></i> Cuppole Problem</a></span>
-                                    <span><a href="#"><i className="far fa-comments"></i> Comments</a> </span>
+                                    <span><button type='button'><i className="far fa-user"></i> Cuppole Problem</button></span>
+                                    <span><button type='button'><i className="far fa-comments"></i> Comments</button> </span>
                                 </div>
                             </div>
                         </div>

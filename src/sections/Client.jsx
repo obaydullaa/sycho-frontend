@@ -45,27 +45,27 @@ export default function Client() {
               <Slider className="row brand-active" {...setting}>
                   <div className="col-lg-12">
                       <div className="client-image">
-                        <a href="#"> <img src="assets/img/client/client-1.png" alt=""/></a>
+                        <button type='button'> <img src="assets/img/client/client-1.png" alt=""/></button>
                       </div>
                   </div>
                   <div className="col-lg-12">
                       <div className="client-image">
-                        <a href="#"> <img src="assets/img/client/client-1.png" alt=""/></a>
+                        <button type='button'> <img src="assets/img/client/client-1.png" alt=""/></button>
                       </div>
                   </div>
                   <div className="col-lg-12">
                       <div className="client-image">
-                        <a href="#"> <img src="assets/img/client/client-1.png" alt=""/></a>
+                        <button type='button'> <img src="assets/img/client/client-1.png" alt=""/></button>
                       </div>
                   </div>
                   <div className="col-lg-12">
                       <div className="client-image">
-                        <a href="#"> <img src="assets/img/client/client-1.png" alt=""/></a>
+                        <button type='button'> <img src="assets/img/client/client-1.png" alt=""/></button>
                       </div>
                   </div>
                   <div className="col-lg-12">
                       <div className="client-image">
-                        <a href="#"> <img src="assets/img/client/client-1.png" alt=""/></a>
+                        <button type='button'> <img src="assets/img/client/client-1.png" alt=""/></button>
                       </div>
                   </div>
               </Slider>

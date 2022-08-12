@@ -9,38 +9,38 @@ export default function Header() {
             <div className="row align-items-center">
                 <div className="col-xl-2 col-lg-2">
                     <div className="logo">
-                        <a href="#"><img src="assets/img/logo/logo.png" alt="" /></a>
+                        <button type='button'><img src="assets/img/logo/logo.png" alt="" /></button>
                     </div>
                 </div>
                 <div className="col-xl-7 col-lg-7">
                     <div className="main-menu">
                         <nav id="mobile-menu">
                             <div>
-                                <div><a href="#">Home</a>
+                                <div><button type='button'>Home</button>
                                     <div className="submenu">
-                                        <div><a href="#">Home</a> </div>
-                                        <div><a href="#">About</a> </div>
-                                        <div><a href="#">Blog</a>
-                                            <div><a href="#">Services</a>
+                                        <div><button type='button'>Home</button> </div>
+                                        <div><button type='button'>About</button> </div>
+                                        <div><button type='button'>Blog</button>
+                                            <div><button type='button'>Services</button>
                                                 <div className="submenu">
-                                                    <div><a href="#">Home</a> </div>
-                                                    <div><a href="#">About</a> </div>
-                                                    <div><a href="#">Blog</a> </div>
-                                                    <div><a href="#">Portfolio</a> </div>
-                                                    <div><a href="#">Services</a> </div>
-                                                    <div><a href="#">Contact</a> </div>
+                                                    <div><button type='button'>Home</button> </div>
+                                                    <div><button type='button'>About</button> </div>
+                                                    <div><button type='button'>Blog</button> </div>
+                                                    <div><button type='button'>Portfolio</button> </div>
+                                                    <div><button type='button'>Services</button> </div>
+                                                    <div><button type='button'>Contact</button> </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div><a href="#">Portfolio</a> </div>
-                                        <div><a href="#">Contact</a> </div>
+                                        <div><button type='button'>Portfolio</button> </div>
+                                        <div><button type='button'>Contact</button> </div>
                                     </div>
                                 </div>
-                                <div><a href="#">About</a> </div>
-                                <div><a href="#">Blog</a> </div>
-                                <div><a href="#">Portfolio</a> </div>
-                                <div><a href="#">Services</a> </div>
-                                <div><a href="#">Contact</a> </div>
+                                <div><button type='button'>About</button> </div>
+                                <div><button type='button'>Blog</button> </div>
+                                <div><button type='button'>Portfolio</button> </div>
+                                <div><button type='button'>Services</button> </div>
+                                <div><button type='button'>Contact</button> </div>
                             </div>
                         </nav>
                     </div>
@@ -54,7 +54,7 @@ export default function Header() {
                     </div>
                     <div className="header-cta f-right">
                         <img src="assets/img/icon/phone.png" alt=" "/>
-                        <span><a href="tell: +1 (202) 588-6500 ">+1 (202) 588-6500</a></span>
+                        <span><button className='hear-phone' type='button'>+1 (202) 588-6500</button></span>
                     </div>
                 </div>
             </div>

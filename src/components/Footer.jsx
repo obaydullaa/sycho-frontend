@@ -108,11 +108,11 @@ export default function Footer() {
                                       <div className="footer-social">
                                           <h4>Follow us</h4>
                                           <ul>
-                                              <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                                              <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                                              <li><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
-                                              <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                                              <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                                              <li><button type='button'><i className="fab fa-facebook-f"></i></button></li>
+                                              <li><button type='button'><i className="fab fa-twitter"></i></button></li>
+                                              <li><button type='button'><i className="fab fa-pinterest-p"></i></button></li>
+                                              <li><button type='button'><i className="fab fa-instagram"></i></button></li>
+                                              <li><button type='button'><i className="fab fa-linkedin-in"></i></button></li>
                                           </ul>
                                       </div>
                                   </div>
@@ -127,14 +127,14 @@ export default function Footer() {
                             <div className="footer-widgets-content">
                                   <div className="footer-services">
                                       <ul>
-                                          <li><a href="services-details.html">Business Frustation</a></li>
-                                          <li><a href="services-details.html">Anxiety Dosorder</a></li>
-                                          <li><a href="services-details.html">Personal Meeting</a></li>
-                                          <li><a href="services-details.html">Couple Therapy</a></li>
-                                          <li><a href="services-details.html">Family Counselling</a></li>
-                                          <li><a href="services-details.html">Dating & Relation</a></li>
-                                          <li><a href="services-details.html">Depression Problem</a></li>
-                                          <li><a href="services-details.html">Mental Problem</a></li>
+                                          <li><button type='button'>Business Frustation</button></li>
+                                          <li><button type='button'>Anxiety Dosorder</button></li>
+                                          <li><button type='button'>Personal Meeting</button></li>
+                                          <li><button type='button'>Couple Therapy</button></li>
+                                          <li><button type='button'>Family Counselling</button></li>
+                                          <li><button type='button'>Dating & Relation</button></li>
+                                          <li><button type='button'>Depression Problem</button></li>
+                                          <li><button type='button'>Mental Problem</button></li>
                                       </ul>
                                   </div>
                             </div>
@@ -179,7 +179,7 @@ export default function Footer() {
                                     </div>
                                     <div className="footer-scribe-form">
                                           <input type="email" placeholder="Email Adress"/>
-                                          <button type="submit" className="sy-btn"><i className="fal fa-paper-plane"></i> subscribe now</button>
+                                          <button type="submit" className="sy-btn"><i className="fa fa-paper-plane"></i> subscribe now</button>
                                     </div>
                                   </div>
                             </div>
@@ -192,14 +192,14 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-sm-6">
                         <div className="footer-copyright-text">
-                            <p>Copyright © 2020 <a href="#">MyTheme</a>. All Rights Reserved.</p>
+                            <p>Copyright © 2020 <button type='button'>MyTheme</button>. All Rights Reserved.</p>
                         </div>
                     </div>
                     <div className="col-sm-6">
                         <div className="footer-terms">
-                              <a href="#">Terms & Condition</a>
-                              <a href="#"> Privacy</a>
-                              <a href="#">Support</a>
+                              <button type='button'>Terms & Condition</button>
+                              <button type='button'> Privacy</button>
+                              <button type='button'>Support</button>
                         </div>
                     </div>
                 </div>

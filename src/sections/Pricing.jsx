@@ -34,7 +34,7 @@ export default function Pricing() {
                               <p>Green dominion ther air whose and moveth shall whose him you are fruits   from appear moveth </p>
                               <p>Green dominion ther air whose and moveth shall whose him you are fruits   from appear moveth </p>
                               <div className="pricing btn">
-                                  <a href="#" className="sy-btn">get started now</a>
+                                  <button type='button' className="sy-btn">get started now</button>
                               </div>
                           </div>
                       </div>
@@ -58,7 +58,7 @@ export default function Pricing() {
                               <p>Green dominion ther air whose and moveth shall whose him you are fruits   from appear moveth </p>
                               <p>Green dominion ther air whose and moveth shall whose him you are fruits   from appear moveth </p>
                               <div className="pricing btn">
-                                  <a href="#" className="sy-btn">get started now</a>
+                                  <button type='button' className="sy-btn">get started now</button>
                               </div>
                           </div>
                       </div>
@@ -79,7 +79,7 @@ export default function Pricing() {
                               <p>Green dominion ther air whose and moveth shall whose him you are fruits   from appear moveth </p>
                               <p>Green dominion ther air whose and moveth shall whose him you are fruits   from appear moveth </p>
                               <div className="pricing btn">
-                                  <a href="#" className="sy-btn">get started now</a>
+                                  <button type='button' className="sy-btn">get started now</button>
                               </div>
                           </div>
                       </div>

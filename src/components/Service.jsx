@@ -28,9 +28,9 @@ export default function Service() {
                                 </div>
                             </div>
                             <div className="services-content">
-                                <h3><a href="#">Anxiety Disorder</a></h3>
+                                <h3><button type='button'>Anxiety Disorder</button></h3>
                                 <p> Dry waters sea sixth that to over above whose him haden thing bring man Signs which</p>
-                                <a href="#" className="sy-btn white-btn-sm">More Details</a>
+                                <button type='button' className="sy-btn white-btn-sm">More Details</button>
                             </div>
                         </div>
                     </div>
@@ -44,9 +44,9 @@ export default function Service() {
                                 </div>
                             </div>
                             <div className="services-content">
-                                <h3><a href="#">Anxiety Disorder</a></h3>
+                                <h3><button type='button'>Anxiety Disorder</button></h3>
                                 <p> Dry waters sea sixth that to over above whose him haden thing bring man Signs which</p>
-                                <a href="#" className="sy-btn white-btn-sm">More Details</a>
+                                <button type='button' className="sy-btn white-btn-sm">More Details</button>
                             </div>
                         </div>
                     </div>
@@ -60,9 +60,9 @@ export default function Service() {
                                 </div>
                             </div>
                             <div className="services-content">
-                                <h3><a href="#">Anxiety Disorder</a></h3>
+                                <h3><button type='button'>Anxiety Disorder</button></h3>
                                 <p> Dry waters sea sixth that to over above whose him haden thing bring man Signs which</p>
-                                <a href="#" className="sy-btn white-btn-sm">More Details</a>
+                                <button type='button' className="sy-btn white-btn-sm">More Details</button>
                             </div>
                         </div>
                     </div>
@@ -76,9 +76,9 @@ export default function Service() {
                                 </div>
                             </div>
                             <div className="services-content">
-                                <h3><a href="#">Anxiety Disorder</a></h3>
+                                <h3><button type='button'>Anxiety Disorder</button></h3>
                                 <p> Dry waters sea sixth that to over above whose him haden thing bring man Signs which</p>
-                                <a href="#" className="sy-btn white-btn-sm">More Details</a>
+                                <button type='button' className="sy-btn white-btn-sm">More Details</button>
                             </div>
                         </div>
                     </div>
@@ -92,9 +92,9 @@ export default function Service() {
                                 </div>
                             </div>
                             <div className="services-content">
-                                <h3><a href="#">Anxiety Disorder</a></h3>
+                                <h3><button type='button'>Anxiety Disorder</button></h3>
                                 <p> Dry waters sea sixth that to over above whose him haden thing bring man Signs which</p>
-                                <a href="#" className="sy-btn white-btn-sm">More Details</a>
+                                <button type='button' className="sy-btn white-btn-sm">More Details</button>
                             </div>
                         </div>
                     </div>
@@ -108,9 +108,9 @@ export default function Service() {
                                 </div>
                             </div>
                             <div className="services-content">
-                                <h3><a href="#">Anxiety Disorder</a></h3>
+                                <h3><button type='button'>Anxiety Disorder</button></h3>
                                 <p> Dry waters sea sixth that to over above whose him haden thing bring man Signs which</p>
-                                <a href="#" className="sy-btn white-btn-sm">More Details</a>
+                                <button type='button' className="sy-btn white-btn-sm">More Details</button>
                             </div>
                         </div>
                     </div>
